@@ -1,0 +1,14 @@
+<h2>Delete the drone</h2>
+<form method="POST" action="/drones/{{drones._id}}/delete">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Drone Name: {{drones.name}}</label>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputDescription1" class="form-label">Number of Propellers: {{drones.propellers}}</label>
+
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputDescription1" class="form-label">Max. Speed: {{drones.maxSpeed}}</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Delete Data</button>
+</form>
